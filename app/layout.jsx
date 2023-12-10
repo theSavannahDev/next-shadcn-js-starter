@@ -2,8 +2,8 @@ import "@/app/styles/globals.css";
 
 export const metadata = {
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo/png",
+    icon: "/favicon.png",
+    shortcut: "/favicon/png",
   },
   title: "Next.JS Starter Template App",
   description:
@@ -13,7 +13,7 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body className="font-opensans scroll-smooth antialiased">
+      <body className="scroll-smooth font-montserrat antialiased">
         <header>Header Section</header>
 
         <main>{children}</main>

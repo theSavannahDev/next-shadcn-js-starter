@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <article>
       <section className="py-5">
-        <h1 className="font-montserrat text-4xl font-bold tracking-wide text-sky-800">
+        <h1 className="text-4xl font-bold tracking-wide text-sky-800">
           Your settings are well configured
         </h1>
         <p className="mt-5">
