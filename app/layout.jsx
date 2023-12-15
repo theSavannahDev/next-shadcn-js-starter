@@ -13,12 +13,12 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body className="scroll-smooth font-montserrat antialiased">
+      <body className="font-display flex h-screen flex-col scroll-smooth antialiased">
         <header>Header Section</header>
 
-        <main>{children}</main>
+        <main className="relative overflow-hidden">{children}</main>
 
-        <footer>Footer Section</footer>
+        <footer className="mt-auto">Footer Section</footer>
       </body>
     </html>
   );
